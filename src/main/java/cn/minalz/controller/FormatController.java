@@ -1,4 +1,7 @@
-package controller;
+package cn.minalz.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.GetMapping;
 
 /**
  * 格式控制器
