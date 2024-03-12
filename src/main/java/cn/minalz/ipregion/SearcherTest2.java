@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class SearcherTest2 {
     public static void main(String[] args) {
-        String dbPath = "ip2region.xdb file path";
+        String dbPath = "D:/AAAProject/ip2region/data/ip2region.xdb";
 
         // 1、从 dbPath 中预先加载 VectorIndex 缓存，并且把这个得到的数据作为全局变量，后续反复使用。
         byte[] vIndex;
@@ -30,7 +30,7 @@ public class SearcherTest2 {
         }
 
         // 3、查询
-        String ip = "1.2.3.4";
+        String ip = "47.96.73.9";
         try {
             long sTime = System.nanoTime();
             String region = searcher.search(ip);
