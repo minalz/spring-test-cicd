@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class SearcherTest3 {
     public static void main(String[] args) {
-        String dbPath = "D:/AAAProject/ip2region/data/ip2region.xdb";
+        String dbPath = "ip2region.xdb file path";
 
         // 1、从 dbPath 加载整个 xdb 到内存。
         byte[] cBuff;
