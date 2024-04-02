@@ -30,7 +30,7 @@ public class SearcherTest3 {
         }
 
         // 3、查询
-        String ip = "1.2.3.4";
+        String ip = "1.2.3.4.5";
         try {
             long sTime = System.nanoTime();
             String region = searcher.search(ip);
